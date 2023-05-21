@@ -1,0 +1,110 @@
+html {
+	background: #C2B280;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+}
+
+h2 {
+    font-size: 100px;
+    /*font-weight: bold;*/
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: 'Rubik Pixels', cursive;
+    color: black;
+    background-color: aquamarine;
+    border-color : silver;
+    border-width: thick;
+    border-radius: 25px ;
+}
+
+.imagen_logo {
+    width: 300px;
+    height: 150px;
+    margin-left: 36px;
+    margin-right: 37px;
+    margin-top: 37px;
+    margin-bottom: 0%;
+    border-radius: 15px ;
+    
+}
+
+.text_area {
+   margin-left: 100px;
+   margin-top: 28px;
+   width: 450px;
+   height: 200px;
+   text-transform: lowercase;
+   border-color : silver;
+   border-width: thick;
+   border-radius: 25px;
+   font-size: 20px;
+   
+}
+.text_area:focus{
+    outline: none;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+.Info {
+    margin-left: 100px;
+}
+
+.botones {
+    margin-top: 20px;
+    margin-left: 210px;
+    
+
+}
+
+.encriptar {
+    background-color: aquamarine;
+    border-color : silver;
+    border-width: thick;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.desencriptar {
+    background-color: aquamarine;
+    border-color : silver;
+    border-width: thick;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+main {
+    display: flex;
+}
+
+.Resultado {
+   margin-left: 100px;
+   margin-top: 28px;
+   width: 450px;
+   height: 200px;
+   text-transform: lowercase;
+   border-color : silver;
+   border-width: thick;
+   border-radius: 25px;
+   font-size: 20px;
+}
+
+.Resultado:focus{
+    outline: none;
+}
+
+.copiar {
+    margin-left: 460px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    border-color : silver;
+    border-width: thick;
+    border-radius: 10px;
+    font-size: 20px;
+}
